@@ -84,6 +84,34 @@
   font-size: 14px;
   text-transform: uppercase;
 }
+.featured-job {
+  background: #2b3939;
+  padding: 7px 8px 3px 8px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 12px;
+  font-size: 14px;
+}
+.job-position {
+  font-size: 22px;
+  color: #2b3939;
+  margin-top: 10px;
+}
+.info-footer {
+  column-gap: 18.5px;
+  margin-top: 8px;
+}
+.extra {
+  font-size: 18px;
+  line-height: 24px;
+  color: #7c8f8f;
+}
+.circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #b7c4c4;
+}
 
 .job-right {
   display: flex;
@@ -93,7 +121,9 @@
 .prop-btn {
   padding: 0 8px;
   height: 32px;
-  background: yellow;
+  background: #5ca5a5;
+
   border-radius: 4px;
   font-size: 16px;
+  color: black;
 }
