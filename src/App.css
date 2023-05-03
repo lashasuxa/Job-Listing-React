@@ -1,0 +1,99 @@
+.main {
+  width: 100%;
+  background-image: url(./assets/bg-header-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 156px;
+  padding: 0 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filter {
+  width: 100%;
+  padding: 20px 40px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  margin-top: 120px;
+}
+.choice-btns {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.clear-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.12px;
+  border: none;
+  background: transparent;
+  color: #5ca5a5;
+}
+.jobs {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.jobs {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.job {
+  width: 100%;
+  padding: 32px 40px;
+  background: white;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.job-left {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.info-header,
+.info-footer {
+  display: flex;
+  align-items: center;
+}
+.company-title {
+  font-size: 18px;
+  line-height: 17px;
+  color: #5ca5a5;
+}
+.new-job {
+  background-color: #5ca5a5;
+  border-radius: 12px;
+  padding: 7px 8px 3px 8px;
+  color: white;
+  margin-left: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.job-right {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.prop-btn {
+  padding: 0 8px;
+  height: 32px;
+  background: yellow;
+  border-radius: 4px;
+  font-size: 16px;
+}
