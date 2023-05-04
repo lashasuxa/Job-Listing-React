@@ -19,16 +19,22 @@ function App() {
           });
         });
 
-  const choiceHandler = (obj) => {
-    setFilterArray((state) => {
-      return [...state, obj];
-    });
+        const choiceHandler = (obj) => {
+          if (!filterArray.some((item) => item.property === obj.property && item.value === obj.value)) {
+            setFilterArray((state) => {
+              return [...state, obj];
+            });
+          }
+        };
+  const clearFilterArray = () => {
+    setFilterArray([]);
   };
 
   return (
     <div className="main">
       {filterArray.length > 0 ? (
-        <Filters jobs={filterArray} updateFilterArray={setFilterArray} />
+        <Filters  jobs={filterArray}
+        clearFilterArray={clearFilterArray} />
       ) : null}
       <section
         className="jobs"

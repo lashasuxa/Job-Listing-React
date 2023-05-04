@@ -1,15 +1,16 @@
 import Remove from "../assets/icon-remove.svg";
 
-const Filters = ({ jobs, updateFilterArray }) => {
+const Filters = ({ jobs, clearFilterArray }) => {
   const buttonRemoveHandler = (index) => {
     const copy = [...jobs];
     copy.splice(index, 1);
-    updateFilterArray(copy);
+    setFilterArray(copy);
   };
 
   const clearHandler = () => {
-    props.updateFilterArray([]);
+    clearFilterArray();
   };
+
   return (
     <div className="filters">
       <div className="choice-btns">
